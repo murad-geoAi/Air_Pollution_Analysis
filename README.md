@@ -17,7 +17,7 @@ The project reveals:
 - Higher exposure in populated zones, emphasizing the need for targeted air quality measures.
 - Predictive models offering a glimpse into future pollution scenarios.
 
-Check out the [results folder](results/) for visualizations, including:
+Check out the [results](results/) for visualizations, including:
 - DOY time series chart (2019 vs. 2020)
 - Mean and population-weighted NO₂ time series
 - Baseline vs. lockdown split-panel map
