@@ -1,0 +1,12 @@
+# Google Earth Engine
+.gee-config
+credentials.json
+
+# Environment
+.env
+node_modules/
+dist/
+
+# System
+.DS_Store
+Thumbs.db

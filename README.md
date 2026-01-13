@@ -1,24 +1,37 @@
-# Chittagong Air Pollution Analysis
+# Chittagong Air Pollution Analysis (AQI-GEE)
 
-Welcome to the repository for my project analyzing air pollution changes in the Chittagong division, Bangladesh, using Google Earth Engine (GEE). This work explores the impact of COVID-19 lockdowns on nitrogen dioxide (NO₂) concentrations, enhanced with advanced machine learning algorithms and time series analysis for predictive insights. This repository was last updated at 05:02 AM +06 on Monday, September 15, 2025.
+[![Google Earth Engine](https://img.shields.io/badge/Google%20Earth%20Engine-4285F4?style=flat&logo=google-earth&logoColor=white)](https://earthengine.google.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Project Overview
-Inspired by the insights from "Chapter A1.4: Air Pollution and Population Exposure" by Zander Venter and Sourangsu Chowdhury, this project leverages Sentinel-5P data to quantify NO₂ variations. The analysis highlights significant reductions in NO₂ levels during the March 2020 lockdown compared to the 2019 baseline, with a focus on population-weighted exposure in urban areas. To push the boundaries further, I integrated machine learning models like LSTM and XGBoost for time series forecasting, enabling predictions of future air quality trends.
+A professional Earth Engine based analysis of Nitrogen Dioxide (NO₂) concentration changes in Chittagong, Bangladesh, focusing on the impact of COVID-19 lockdowns in 2020. This repository leverages Sentinel-5P TROPOMI data to quantify air quality variations and population-weighted exposure.
 
-## Key Features
-- **Data Processing:** Utilizes GEE to process Sentinel-5P data, generating time series and split-panel maps.
-- **Exposure Analysis:** Calculates population-weighted NO₂ concentrations to assess human exposure.
-- **Machine Learning:** Applies LSTM and XGBoost for forecasting NO₂ trends based on historical patterns.
-- **Visualization:** Includes charts (DOY time series, mean vs. population-weighted NO₂) and a baseline vs. lockdown map.
+## 🚀 Key Features
+- **Spatial Analysis:** High-resolution mapping of tropospheric NO₂ using Sentinel-5P.
+- **Population Weighting:** Advanced exposure analysis using Gridded Population of the World (GPWv4) data.
+- **Time Series:** Comparative analysis between 2019 (Baseline) and 2020 (Lockdown).
+- **Visualization:** Integrated split-panel maps and dynamic charts within the GEE interface.
 
-## Results
-The project reveals:
-- A notable drop in mean NO₂ levels during the lockdown, reflecting reduced emissions.
-- Higher exposure in populated zones, emphasizing the need for targeted air quality measures.
-- Predictive models offering a glimpse into future pollution scenarios.
+## 📂 Repository Structure
+- `src/`: Core Google Earth Engine JavaScript source code.
+- `results/`: Visualization outputs, maps, and statistical charts.
+- `docs/`: Technical methodology and detailed project documentation.
 
-Check out the [results](results/) for visualizations, including:
-- DOY time series chart (2019 vs. 2020)
-- Mean and population-weighted NO₂ time series
-- Baseline vs. lockdown split-panel map
+## 🛠️ Getting Started
+1. Open the [Google Earth Engine Code Editor](https://code.earthengine.google.com/).
+2. Copy the contents of [`src/analysis.js`](src/analysis.js) into a new script.
+3. Select your study area (Default: Chittagong) and run the script.
 
+## 📊 Results Summary
+The analysis observed a significant reduction in NO₂ levels during the March 2020 lockdown period compared to the 2019 baseline. Population-weighted concentrations highlight that urban centers experienced the most dramatic changes in exposure levels.
+
+For detailed visual reports, see the [Results gallery](results/).
+
+## ⚖️ License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🏷️ Citation
+If you use this code or data in your research, please cite it as follows:
+```text
+Ahmed, T. (2025). Chittagong Air Pollution Analysis (AQI-GEE). GitHub Repository.
+```
+See [CITATION.cff](CITATION.cff) for more details.
