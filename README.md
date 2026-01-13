@@ -29,9 +29,3 @@ For detailed visual reports, see the [Results gallery](results/).
 ## ⚖️ License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🏷️ Citation
-If you use this code or data in your research, please cite it as follows:
-```text
-Ahmed, T. (2025). Chittagong Air Pollution Analysis (AQI-GEE). GitHub Repository.
-```
-See [CITATION.cff](CITATION.cff) for more details.
